@@ -1,0 +1,17 @@
+.title {
+   color: $colorBlack;
+   font-size: calc(28 / 16) + rem;
+   font-weight: 700;
+}
+.btn {
+   // .btn__link
+
+   &__link {
+      color: $colorBlack;
+      font-weight: 500;
+      padding: 5px 12px;
+      text-align: center;
+      border: 1px solid $colorRed;
+      border-radius: 20px;
+   }
+}
